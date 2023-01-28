@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets\css\font\Montserrat\Montserrat-Italic-VariableFont_wght.ttf);
+}
+html, body{
+    overflow-x: hidden;
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin: 6px 4px 10px 40px ;
+    padding: 1px 1px 1px 1px ;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    margin: 1px 20px 10px 0 ;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    margin: 0 0 0 0;
+}
+h1{
+    margin: 45px 102px 0 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+nav li{
+    padding: 50px 40px 0 0;
+}
+.main{
+    margin: 0 30px 0 30px;
+    background-color: beige;
+
+}
+.container{
+    float: right;
+    margin: 0 30px 0 30px;
+
+    
+}
+.sidebar{
+    float: right;
+    margin: 0 30px 0 30px;
+
+    
+}
+footer{
+    margin: 0 30px 0 30px;
+}
+a{
+    color: cornflowerblue;
+}
+a:hover{
+    color:cadetblue;
+}
+.text_link{
+    color: blue;
+
+}
+.textlink:hover{
+    color: crimson;
+}
+p{
+    display: block;
+    text-align: justify;
+    front-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.section{
+    font-size: 18px;
+}
+ul{
+    font-size: 18px;
+}
